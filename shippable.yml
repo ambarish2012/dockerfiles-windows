@@ -1,0 +1,9 @@
+language: none
+
+build:
+  ci:
+    - pushd golang
+    - docker build .
+    - popd
+    
+    
